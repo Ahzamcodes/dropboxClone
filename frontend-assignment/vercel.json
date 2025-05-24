@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd frontend-assignment && npm run build",
+  "outputDirectory": "frontend-assignment/.next",
+  "framework": "nextjs"
+} 

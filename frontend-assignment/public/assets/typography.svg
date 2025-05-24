@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Typography System -->
+  <g transform="translate(50, 50)">
+    <!-- Title -->
+    <text x="0" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#1E1E1E">Typography System</text>
+    
+    <!-- Font Families -->
+    <g transform="translate(0, 80)">
+      <!-- Sharp Grotesk -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Sharp Grotesk</text>
+        <text x="0" y="30" font-family="Arial" font-size="14" fill="#666">Primary font for headlines and large text</text>
+        
+        <!-- Headings -->
+        <g transform="translate(0, 50)">
+          <text x="0" y="0" font-family="Arial" font-size="48" font-weight="bold" fill="#0061FF">Heading 1</text>
+          <text x="0" y="20" font-family="Arial" font-size="12" fill="#666">48px / Bold / -0.02em</text>
+          
+          <text x="0" y="60" font-family="Arial" font-size="36" font-weight="bold" fill="#333">Heading 2</text>
+          <text x="0" y="80" font-family="Arial" font-size="12" fill="#666">36px / Bold / -0.01em</text>
+          
+          <text x="0" y="120" font-family="Arial" font-size="24" font-weight="bold" fill="#333">Heading 3</text>
+          <text x="0" y="140" font-family="Arial" font-size="12" fill="#666">24px / Bold / 0em</text>
+        </g>
+      </g>
+      
+      <!-- Atlas Grotesk -->
+      <g transform="translate(400, 0)">
+        <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Atlas Grotesk</text>
+        <text x="0" y="30" font-family="Arial" font-size="14" fill="#666">Secondary font for body text and UI elements</text>
+        
+        <!-- Body Text -->
+        <g transform="translate(0, 50)">
+          <text x="0" y="0" font-family="Arial" font-size="20" fill="#333">Body Text Regular</text>
+          <text x="0" y="20" font-family="Arial" font-size="12" fill="#666">20px / Regular / 0.01em</text>
+          
+          <text x="0" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Body Text Bold</text>
+          <text x="0" y="70" font-family="Arial" font-size="12" fill="#666">20px / Bold / 0.01em</text>
+          
+          <text x="0" y="100" font-family="Arial" font-size="16" fill="#333">Small Text Regular</text>
+          <text x="0" y="120" font-family="Arial" font-size="12" fill="#666">16px / Regular / 0.01em</text>
+          
+          <text x="0" y="150" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Small Text Bold</text>
+          <text x="0" y="170" font-family="Arial" font-size="12" fill="#666">16px / Bold / 0.01em</text>
+        </g>
+      </g>
+    </g>
+    
+    <!-- Usage Examples -->
+    <g transform="translate(0, 400)">
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Usage Guidelines</text>
+      
+      <!-- Guidelines -->
+      <g transform="translate(0, 30)">
+        <text x="0" y="0" font-family="Arial" font-size="14" fill="#666">• Sharp Grotesk for headlines and large text</text>
+        <text x="0" y="20" font-family="Arial" font-size="14" fill="#666">• Atlas Grotesk for body text and UI elements</text>
+        <text x="0" y="40" font-family="Arial" font-size="14" fill="#666">• Maintain consistent line heights (1.2 for body, 1.1 for headings)</text>
+        <text x="0" y="60" font-family="Arial" font-size="14" fill="#666">• Use proper letter spacing for readability</text>
+        <text x="0" y="80" font-family="Arial" font-size="14" fill="#666">• Follow type scale for visual hierarchy</text>
+      </g>
+      
+      <!-- Example -->
+      <g transform="translate(400, 30)">
+        <rect x="0" y="0" width="280" height="100" rx="4" fill="#F5F5F5"/>
+        <text x="20" y="30" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Example Heading</text>
+        <text x="20" y="60" font-family="Arial" font-size="16" fill="#666">This is an example of how the type system</text>
+        <text x="20" y="80" font-family="Arial" font-size="16" fill="#666">works together in a real context.</text>
+      </g>
+    </g>
+  </g>
+</svg> 

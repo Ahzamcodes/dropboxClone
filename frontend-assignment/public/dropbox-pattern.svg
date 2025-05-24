@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g opacity="0.1">
+    <path d="M100 100L200 50L300 100L200 150L100 100Z" fill="#0061FF"/>
+    <path d="M900 700L1000 650L1100 700L1000 750L900 700Z" fill="#0061FF"/>
+    <path d="M500 300L600 250L700 300L600 350L500 300Z" fill="#0061FF"/>
+    <path d="M300 500L400 450L500 500L400 550L300 500Z" fill="#0061FF"/>
+    <path d="M700 500L800 450L900 500L800 550L700 500Z" fill="#0061FF"/>
+  </g>
+</svg> 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <!-- Iconography System -->
+  <g transform="translate(50, 50)">
+    <!-- Title -->
+    <text x="0" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#1E1E1E">Icon System</text>
+    
+    <!-- Icon Grid -->
+    <g transform="translate(0, 80)">
+      <!-- Row 1 -->
+      <g transform="translate(0, 0)">
+        <!-- File Icon -->
+        <rect x="0" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <path d="M20 20h40v40h-40z" fill="#0061FF"/>
+        <text x="40" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">File</text>
+        
+        <!-- Folder Icon -->
+        <rect x="100" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <path d="M120 20h40v40h-40z" fill="#0061FF"/>
+        <text x="140" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Folder</text>
+        
+        <!-- Share Icon -->
+        <rect x="200" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <circle cx="240" cy="40" r="20" fill="#0061FF"/>
+        <text x="240" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Share</text>
+        
+        <!-- Download Icon -->
+        <rect x="300" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <path d="M320 20h40v40h-40z" fill="#0061FF"/>
+        <text x="340" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Download</text>
+      </g>
+      
+      <!-- Row 2 -->
+      <g transform="translate(0, 120)">
+        <!-- Settings Icon -->
+        <rect x="0" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <circle cx="40" cy="40" r="20" fill="#0061FF"/>
+        <text x="40" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Settings</text>
+        
+        <!-- Search Icon -->
+        <rect x="100" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <circle cx="140" cy="40" r="20" fill="#0061FF"/>
+        <text x="140" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Search</text>
+        
+        <!-- Notification Icon -->
+        <rect x="200" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <path d="M220 20h40v40h-40z" fill="#0061FF"/>
+        <text x="240" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Notification</text>
+        
+        <!-- User Icon -->
+        <rect x="300" y="0" width="80" height="80" fill="#F5F5F5"/>
+        <circle cx="340" cy="40" r="20" fill="#0061FF"/>
+        <text x="340" y="100" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">User</text>
+      </g>
+    </g>
+    
+    <!-- Guidelines -->
+    <g transform="translate(400, 80)">
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Icon Guidelines</text>
+      <text x="0" y="30" font-family="Arial" font-size="14" fill="#666">• Use 24x24px for standard icons</text>
+      <text x="0" y="50" font-family="Arial" font-size="14" fill="#666">• Maintain 2px stroke width</text>
+      <text x="0" y="70" font-family="Arial" font-size="14" fill="#666">• Keep consistent corner radius</text>
+      <text x="0" y="90" font-family="Arial" font-size="14" fill="#666">• Use primary blue for active states</text>
+      <text x="0" y="110" font-family="Arial" font-size="14" fill="#666">• Use gray for inactive states</text>
+    </g>
+  </g>
+</svg> 

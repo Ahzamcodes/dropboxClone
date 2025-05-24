@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="32" viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M12.5 0L0 7.5L12.5 15L25 7.5L12.5 0Z" fill="#0061FF"/>
+  <path d="M12.5 16L0 23.5L12.5 31L25 23.5L12.5 16Z" fill="#0061FF"/>
+  <path d="M37.5 0L25 7.5L37.5 15L50 7.5L37.5 0Z" fill="#0061FF"/>
+  <path d="M37.5 16L25 23.5L37.5 31L50 23.5L37.5 16Z" fill="#0061FF"/>
+  <path d="M62.5 0L50 7.5L62.5 15L75 7.5L62.5 0Z" fill="#0061FF"/>
+  <path d="M62.5 16L50 23.5L62.5 31L75 23.5L62.5 16Z" fill="#0061FF"/>
+  <path d="M87.5 0L75 7.5L87.5 15L100 7.5L87.5 0Z" fill="#0061FF"/>
+  <path d="M87.5 16L75 23.5L87.5 31L100 23.5L87.5 16Z" fill="#0061FF"/>
+</svg> 

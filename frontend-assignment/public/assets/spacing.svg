@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Spacing System -->
+  <g transform="translate(50, 50)">
+    <!-- Title -->
+    <text x="0" y="40" font-family="Arial" font-size="24" font-weight="bold" fill="#1E1E1E">Spacing & Layout System</text>
+    
+    <!-- Grid System -->
+    <g transform="translate(0, 80)">
+      <!-- Grid Container -->
+      <rect x="0" y="0" width="400" height="300" fill="#F8F9FA" stroke="#0061FF" stroke-width="2"/>
+      
+      <!-- Grid Lines -->
+      <g stroke="#0061FF" stroke-width="1" stroke-dasharray="4,4" opacity="0.5">
+        <line x1="0" y1="75" x2="400" y2="75"/>
+        <line x1="0" y1="150" x2="400" y2="150"/>
+        <line x1="0" y1="225" x2="400" y2="225"/>
+        <line x1="100" y1="0" x2="100" y2="300"/>
+        <line x1="200" y1="0" x2="200" y2="300"/>
+        <line x1="300" y1="0" x2="300" y2="300"/>
+      </g>
+      
+      <!-- Example Components with Spacing -->
+      <g transform="translate(20, 20)">
+        <!-- Row 1 -->
+        <g transform="translate(0, 0)">
+          <!-- Card 1 -->
+          <rect x="0" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="30" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 2 -->
+          <rect x="100" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="130" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 3 -->
+          <rect x="200" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="230" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+        </g>
+        
+        <!-- Row 2 -->
+        <g transform="translate(0, 100)">
+          <!-- Card 4 -->
+          <rect x="0" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="30" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 5 -->
+          <rect x="100" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="130" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 6 -->
+          <rect x="200" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="230" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+        </g>
+        
+        <!-- Row 3 -->
+        <g transform="translate(0, 200)">
+          <!-- Card 7 -->
+          <rect x="0" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="30" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 8 -->
+          <rect x="100" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="130" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+          
+          <!-- Card 9 -->
+          <rect x="200" y="0" width="60" height="60" rx="4" fill="#FFFFFF" stroke="#0061FF" stroke-width="2"/>
+          <text x="230" y="30" text-anchor="middle" font-family="Arial" font-size="12" fill="#0061FF">16px</text>
+        </g>
+      </g>
+      
+      <!-- Spacing Indicators -->
+      <g stroke="#0061FF" stroke-width="2">
+        <!-- Horizontal Spacing -->
+        <line x1="80" y1="10" x2="80" y2="30"/>
+        <line x1="180" y1="10" x2="180" y2="30"/>
+        <line x1="280" y1="10" x2="280" y2="30"/>
+        
+        <!-- Vertical Spacing -->
+        <line x1="10" y1="80" x2="30" y2="80"/>
+        <line x1="10" y1="180" x2="30" y2="180"/>
+        <line x1="10" y1="280" x2="30" y2="280"/>
+      </g>
+    </g>
+    
+    <!-- Spacing Scale -->
+    <g transform="translate(420, 80)">
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Spacing Scale</text>
+      
+      <!-- Scale Examples -->
+      <g transform="translate(0, 30)">
+        <!-- 4px -->
+        <rect x="0" y="0" width="4" height="20" fill="#0061FF"/>
+        <text x="20" y="15" font-family="Arial" font-size="14" fill="#333">4px - Micro spacing</text>
+        
+        <!-- 8px -->
+        <rect x="0" y="40" width="8" height="20" fill="#0061FF"/>
+        <text x="20" y="55" font-family="Arial" font-size="14" fill="#333">8px - Component spacing</text>
+        
+        <!-- 16px -->
+        <rect x="0" y="80" width="16" height="20" fill="#0061FF"/>
+        <text x="20" y="95" font-family="Arial" font-size="14" fill="#333">16px - Section spacing</text>
+        
+        <!-- 24px -->
+        <rect x="0" y="120" width="24" height="20" fill="#0061FF"/>
+        <text x="20" y="135" font-family="Arial" font-size="14" fill="#333">24px - Layout spacing</text>
+        
+        <!-- 32px -->
+        <rect x="0" y="160" width="32" height="20" fill="#0061FF"/>
+        <text x="20" y="175" font-family="Arial" font-size="14" fill="#333">32px - Page spacing</text>
+      </g>
+    </g>
+    
+    <!-- Guidelines -->
+    <g transform="translate(0, 400)">
+      <text x="0" y="0" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Layout Guidelines</text>
+      <text x="0" y="30" font-family="Arial" font-size="14" fill="#333">• Use 12-column grid system</text>
+      <text x="0" y="50" font-family="Arial" font-size="14" fill="#333">• Maintain consistent gutters (16px)</text>
+      <text x="0" y="70" font-family="Arial" font-size="14" fill="#333">• Follow spacing scale for hierarchy</text>
+      <text x="0" y="90" font-family="Arial" font-size="14" fill="#333">• Consider responsive breakpoints</text>
+      <text x="0" y="110" font-family="Arial" font-size="14" fill="#333">• Use grid alignment for consistency</text>
+    </g>
+  </g>
+</svg> 
